@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-Moderate-cyan: hsl(176, 50%, 47%);
+  --color-Dark-cyan: hsl(176, 72%, 28%);
+  --color-Black: hsl(0, 0%, 0%);
+  --color-Dark-gray: hsl(0, 0%, 48%);
+  --font-display: "Commissioner", serif;
+}
