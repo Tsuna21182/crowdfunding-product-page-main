@@ -8,7 +8,10 @@ function Header() {
       {isModalOpen && <div className="fixed inset-0 opacity-80 z-40"></div>}
       <h2 className="text-3xl text-white font-bold relative z-50">crowdfund</h2>
       <div className="p-4 relative z-50">
-        <button onClick={() => setIsModalOpen(!isModalOpen)}>
+        <button
+          onClick={() => setIsModalOpen(!isModalOpen)}
+          className="cursor-pointer"
+        >
           <img
             src={
               isModalOpen

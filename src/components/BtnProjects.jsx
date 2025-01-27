@@ -8,7 +8,7 @@ function BtnProjects({ onClose }) {
   return (
     <div>
       <button
-        className="bg-Moderate-cyan py-4 rounded-4xl text-white font-bold w-60 hover:bg-Dark-cyan transition-all"
+        className="bg-Moderate-cyan py-4 rounded-4xl text-white font-bold w-60 hover:bg-Dark-cyan transition-all cursor-pointer"
         onClick={() => setIsModalOpen(!isModalOpen)}
       >
         Back this project

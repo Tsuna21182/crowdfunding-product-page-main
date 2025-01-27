@@ -15,7 +15,7 @@ function Cards() {
             {item.left}{" "}
             <span className="text-Dark-gray text-lg font-semibold">left</span>
           </p>
-          <button className="bg-Moderate-cyan text-white py-3 px-8 rounded-3xl mt-8 hover:bg-Dark-cyan transition-all">
+          <button className="bg-Moderate-cyan text-white py-3 px-8 rounded-3xl mt-8 hover:bg-Dark-cyan transition-all cursor-pointer">
             Select Reward
           </button>
         </div>
