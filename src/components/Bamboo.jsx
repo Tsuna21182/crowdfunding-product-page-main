@@ -6,7 +6,7 @@ function Bamboo() {
       <img
         src="/images/logo-mastercraft.svg"
         alt="imagen master"
-        className="absolute top-[-40px] left-35 w-18"
+        className="absolute top-[-40px] left-32 w-18 sm:left-65 md:w-20 lg:w-24  md:left-80 lg:left-110 lg:top-[-60px]"
       />
       <div className="mt-10">
         <h3 className="font-extrabold text-2xl">
@@ -16,9 +16,13 @@ function Bamboo() {
           A beautifully handcrafted monitor stand to reduce neck and eye strain.
         </p>
       </div>
-      <div className="flex justify-between mt-8">
+      <div className="flex justify-between md:justify-around mt-8">
         <BtnProjects />
-        <img src="/images/icon-bookmark.svg" alt="imagen book" />
+        <img
+          src="/images/icon-bookmark.svg"
+          alt="imagen book"
+          className="md:w-15"
+        />
       </div>
     </div>
   );

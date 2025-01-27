@@ -6,4 +6,7 @@
   --color-Black: hsl(0, 0%, 0%);
   --color-Dark-gray: hsl(0, 0%, 48%);
   --font-display: "Commissioner", serif;
+
+  --breakpoint-3xl: 1920px;
+  --breakpoint-xxl: 1440px;
 }

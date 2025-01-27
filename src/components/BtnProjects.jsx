@@ -17,7 +17,7 @@ function BtnProjects({ onClose }) {
         <div className="flex flex-col text-left gap-5">
           <h2 className="text-Black font-bold text-2xl">Back this project</h2>
           <button
-            className="text-xl font-bold text-Dark-gray absolute top-6 right-4"
+            className="text-xl font-bold text-Dark-gray absolute top-6 right-4 cursor-pointer"
             onClick={onClose}
           >
             X
