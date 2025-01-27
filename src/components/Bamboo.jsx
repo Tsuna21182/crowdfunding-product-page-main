@@ -1,4 +1,4 @@
-import React from "react";
+import BtnProjects from "./BtnProjects";
 
 function Bamboo() {
   return (
@@ -17,9 +17,7 @@ function Bamboo() {
         </p>
       </div>
       <div className="flex justify-between mt-8">
-        <button className="bg-Moderate-cyan rounded-4xl text-white font-bold w-60 hover:bg-Dark-cyan transition-all">
-          Back this project
-        </button>
+        <BtnProjects />
         <img src="/images/icon-bookmark.svg" alt="imagen book" />
       </div>
     </div>
