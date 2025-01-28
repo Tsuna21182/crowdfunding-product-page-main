@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <section className="flex flex-col gap-20 md:max-w-3xl md:mx-auto lg:max-w-5xl ">
+      <section className="flex flex-col gap-12 md:max-w-3xl md:mx-auto lg:max-w-5xl px-4 md:px-0">
         <Bamboo />
         <Data />
         <Project />

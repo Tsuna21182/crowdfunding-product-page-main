@@ -17,7 +17,7 @@ function Bamboo() {
         </p>
       </div>
       <div className="flex justify-between md:justify-around mt-8">
-        <BtnProjects />
+        <BtnProjects name="Back this project" />
         <img
           src="/images/icon-bookmark.svg"
           alt="imagen book"

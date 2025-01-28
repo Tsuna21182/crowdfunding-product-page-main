@@ -2,9 +2,9 @@ import Cards from "./Cards";
 
 function Project() {
   return (
-    <div className="p-4 mx-5 mt-1 my-[-50px] flex flex-col gap-5 t bg-white rounded-lg shadow-lg">
+    <div className="p-4 mx-5 mt-1 my-[-50px] flex flex-col gap-5 bg-white rounded-lg shadow-lg">
       <div className="md:p-4">
-        <h3 className="font-bold text-xl mt-5">About this project</h3>
+        <h3 className="font-bold text-xl mt-5 mb-5">About this project</h3>
         <p className="text-Dark-gray md:mt-5">
           The Mastercraft Bamboo Monitor Riser is a sturdy and stulish platform
           that elevates your screen to a more comfortable viewing height.

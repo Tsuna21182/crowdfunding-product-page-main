@@ -4,7 +4,7 @@ import Modal from "./Modal";
 function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
-    <div className="relative bg-[url(/images/image-hero-mobile.jpg)] bg-cover bg-center h-[300px] flex justify-between p-5">
+    <div className="relative bg-[url(/images/image-hero-mobile.jpg)] md:bg-[url(/images/image-hero-desktop.jpg)] bg-cover bg-center h-[300px] flex justify-between p-5">
       {isModalOpen && <div className="fixed inset-0 opacity-80 z-40"></div>}
       <h2 className="text-3xl text-white font-bold relative z-50">crowdfund</h2>
       <div className="p-4 relative z-50">
